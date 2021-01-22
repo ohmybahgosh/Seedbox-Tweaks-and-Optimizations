@@ -1,1 +1,3 @@
 theme: jekyll-theme-slate
+title: Ultimate Seedbox Optimizations - A Noob's Trial and Error
+description: A rolling collection of my various Seedbox Tweaks, Scripts, Configurations, and Optimizations. From rotating Rclone Google Drive mounts, custom nginx.conf tweaks, Swizzin Panel overhauls, optimized Plex settings, etc
