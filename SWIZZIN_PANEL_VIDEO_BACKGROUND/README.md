@@ -1,30 +1,24 @@
-**UPDATE:AFTER I GOT OFF WORK LAST NIGHT I WROTE A QUICK LOOP BASH SCRIPT TO GENERATE 37 MORE PRE-MADE LOGIN.HTML PAGES, WITH THEIR .MP4/.JPG FILES AS WELL.  BECAUSE I HAD TO KEEP THE FILE SIZES DOWN, THERE ARE A FEW THAT AREN'T IDEAL FOR HIGH RESOLUTION DESKTOPS, BUT MAJORITY OF THEM ARE GREAT.**
+![](https://user-images.githubusercontent.com/77786782/105615322-a7b77980-5d9d-11eb-925d-e05cca68540b.png)
 
-**I ALSO ADDED A COUPLE MORE BASH ONE LINERS FOR MAKING YOUR OWN VIDEO BACKGROUNDS VIA FFMPEG :)**
+# VIDEO EXAMPLES:  
+ 
 
-**Virus Scan:**[**VIRUSTOTAL SCAN (0/60)**](https://www.virustotal.com/gui/file/77f7ef64347bec1089b7b694281a5c055bd66d8e25bbc17614cd5cbc52851fa9/detection)
+## \-BACKUP YOUR EXISTING "/templates" & "/imgs" FOLDERS-  
+\-BACKUP YOUR EXISTING "/templates" & "/imgs" FOLDERS-  
+\-BACKUP YOUR EXISTING "/templates" & "/imgs" FOLDERS-
 
-**Download v2:**[**MEGA LINK TO V2 ZIP**](https://mega.nz/file/aSIw3brY#rPAclB4f2d388vkjCQ9GJF-b13II09qucJODwukpFmI)
+## Backup versions of all files for the Swizzin panel can be found here (JUST IN CASE):  
+[https://github.com/liaralabs/swizzin_dashboard](https://github.com/liaralabs/swizzin_dashboard)
 
-**OG POST:**
+​
 
-This guide is super cut and dry lol, and I apologize ahead of time, because I am not the best at teaching things lol...but, I am more than willing to answer questions that you all may have in regards to this guide...so let's jump right in
+To keep it easy on everyone, I went ahead and made three different _**premade**_ _**login.html**_ pages, each with their own different video background (see examples above). I hope it provides a solid start for anyone wanting to branch out and create their own.. I already optimized the mp4 files (bitrate/resolution/file size/etc), and I also created background images from the first frame of each video. These background images (posters) load first so the page isn't blank for individuals on slower connections.
 
-# -BACKUP YOUR EXISTING "/templates" & "/imgs" FOLDERS-
+_**AT THE END OF THIS GUIDE, I INCLUDED SOME EASY PEASY INFO ON MAKING YOUR OWN VIDEO BACKGROUND...**_
 
-Backup versions of all files for the Swizzin panel can be found here too:[https://github.com/liaralabs/swizzin\_dashboard](https://github.com/liaralabs/swizzin_dashboard)
+~**VIRUSTOTAL.COM**~ ~(0/61 AKA IT'S CLEAN LOL)~[~https://www.virustotal.com/gui/file/e366440830dc57ef3e803eb351979cfa4f930b27976c1af8236cf4c7c8d5ba86/detection~](https://www.virustotal.com/gui/file/e366440830dc57ef3e803eb351979cfa4f930b27976c1af8236cf4c7c8d5ba86/detection)
 
-**BELOW ARE THE** **~~THREE~~** **(JUST FIVE OF THE MANY) VIDEO BACKGROUNDS I HAVE PROVIDED PRE-MADE CONFIGURATIONS FOR...DECIDED WHICH ONE YOU LIKE, AND SCROLL ON DOWN TO QUICKLY GET IT UP AND RUNNING!**
-
-&#x200B;
-
-To keep it easy on everyone, I went ahead and made three different ***premade*** ***login.html*** pages, each with their own different video background (see examples above).  I hope it provides a solid start for anyone wanting to branch out and create their own.. I already optimized the mp4 files (bitrate/resolution/file size/etc), and I also created background images from the first frame of each video.  These background images (posters) load first so the page isn't blank for individuals on slower connections.
-
-***AT THE END OF THIS GUIDE, I INCLUDED SOME EASY PEASY INFO ON MAKING YOUR OWN VIDEO BACKGROUND...***
-
-**~~VIRUSTOTAL.COM~~** ~~(0/61 AKA IT'S CLEAN LOL)~~[~~https://www.virustotal.com/gui/file/e366440830dc57ef3e803eb351979cfa4f930b27976c1af8236cf4c7c8d5ba86/detection~~](https://www.virustotal.com/gui/file/e366440830dc57ef3e803eb351979cfa4f930b27976c1af8236cf4c7c8d5ba86/detection)
-
-**~~DOWNLOAD THE ZIP:~~**[~~https://mega.nz/file/HTIDgaSZ#e76W-Pm8z2Ivl04YCsJfT1RPN9zs2rSQx\_jdqZs9ZRU~~](https://mega.nz/file/HTIDgaSZ#e76W-Pm8z2Ivl04YCsJfT1RPN9zs2rSQx_jdqZs9ZRU)
+~**DOWNLOAD THE ZIP:**~[~https://mega.nz/file/HTIDgaSZ#e76W-Pm8z2Ivl04YCsJfT1RPN9zs2rSQx_jdqZs9ZRU~](https://mega.nz/file/HTIDgaSZ#e76W-Pm8z2Ivl04YCsJfT1RPN9zs2rSQx_jdqZs9ZRU)
 
 **Virus Scan:**[**VIRUSTOTAL SCAN (0/60)**](https://www.virustotal.com/gui/file/77f7ef64347bec1089b7b694281a5c055bd66d8e25bbc17614cd5cbc52851fa9/detection)
 
@@ -58,18 +52,18 @@ To keep it easy on everyone, I went ahead and made three different ***premade***
 
 **RUN THE FOLLOWING COMMAND TO RESTART THE PANEL SERVICE:**`sudo systemctl restart panel.service`
 
-**...and there ya go!  Go to your swizzin install and your new login page is alive!**
+**...and there ya go! Go to your swizzin install and your new login page is alive!**
 
-**NOTE ANY TIME YOU MAKE ANY CHANGES TO THE LOGIN.HTML FILE OR FILES SOURCED IN THE LOGIN.HTML YOU MUST RESTART THE SYSTEMD PANEL SERVICE.  THE FILES ARE IN A CACHE, AND UNLESS YOU RUN A RESTART ON THE SERVICE, YOU WON'T SEE ANY CHANGES.If you want to make your own video background, below I've included a site with a ton of free video loops:**[https://pixabay.com/videos/search/looping/](https://pixabay.com/videos/search/looping/)
+**NOTE ANY TIME YOU MAKE ANY CHANGES TO THE LOGIN.HTML FILE OR FILES SOURCED IN THE LOGIN.HTML YOU MUST RESTART THE SYSTEMD PANEL SERVICE. THE FILES ARE IN A CACHE, AND UNLESS YOU RUN A RESTART ON THE SERVICE, YOU WON'T SEE ANY CHANGES.If you want to make your own video background, below I've included a site with a ton of free video loops:**[https://pixabay.com/videos/search/looping/](https://pixabay.com/videos/search/looping/)
 
-&#x200B;
+​
 
 **I'VE MADE THIS SIMPLE ONE LINER THAT WILL CONVERT ALL THE .MP4 FILES INSIDE OF A DIR TO THE PROPER FORMAT, AS WELL AS CREATE THE BACKGROUND IMAGES OF THE FIRST FRAME OF EACH VIDEO...MAKE SURE YOU HAVE FFMPEG INSTALLED!**`mkdir ./OG_VIDZ; for i in *.mp4; do ffmpeg -i "$i" -c:v h264 -an -r:v 24 -b:v 1500k "${i%%.*}_24fps.mp4" && ffmpeg -ss 00:00:1 -i "$i" -vframes 1 -q:v 2 "${i%%.*}.jpg" && mv "$i" ./OG_VIDZ ; done`
 
 **UPDATE:MORE ONE LINERS:**
 
-*This line cmd is the same as above, except it doesn't add the \_24fps...basically it backups up the OG mp4 files to a folder called OG\_VIDZ, converts them to a proper file size, makes a jpg for the first frame, and then renames the new mp4 files back to the original name:*`mkdir ./OG_VIDZ; for i in *.mp4; do ffmpeg -i "$i" -c:v h264 -an -r:v 24 -b:v 1500k "${i%%.*}_24fps.mp4" && ffmpeg -ss 00:00:1 -i "$i" -vframes 1 -q:v 2 "${i%%.*}.jpg" && mv "$i" ./OG_VIDZ ; done && rename 's/_24fps//' ./*.mp4`
+_This line cmd is the same as above, except it doesn't add the \_24fps...basically it backups up the OG mp4 files to a folder called OG\_VIDZ, converts them to a proper file size, makes a jpg for the first frame, and then renames the new mp4 files back to the original name:_`mkdir ./OG_VIDZ; for i in *.mp4; do ffmpeg -i "$i" -c:v h264 -an -r:v 24 -b:v 1500k "${i%%.*}_24fps.mp4" && ffmpeg -ss 00:00:1 -i "$i" -vframes 1 -q:v 2 "${i%%.*}.jpg" && mv "$i" ./OG_VIDZ ; done && rename 's/_24fps//' ./*.mp4`
 
-*This cmd converts any .mov files in the current directory to mp4:*`for i in *.mov; do ffmpeg -i "$i" -vcodec h264 -acodec aac ${i%%.*}.mp4 ; done`
+_This cmd converts any .mov files in the current directory to mp4:_`for i in *.mov; do ffmpeg -i "$i" -vcodec h264 -acodec aac ${i%%.*}.mp4 ; done`
 
 ..let me know if this guide was of any help lol
