@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+# UNDER CONSTRUCTION..
 
-You can use the [editor on GitHub](https://github.com/ohmybahgosh/Ultimate-Seedbox-Optimizations/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Easily create a modern HTML5 style video background for your Swizzin Panel login page
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ohmybahgosh/Ultimate-Seedbox-Optimizations/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![https://ohmybahgosh.github.io/Seedbox-Tweaks-and-Optimizations/Swizzin-Panel-Login-Page-Mod](https://user-images.githubusercontent.com/77786782/105615442-b81c2400-5d9e-11eb-9818-cb35b4231e31.png)
