@@ -1,4 +1,7 @@
-![](https://user-images.githubusercontent.com/77786782/105560254-4df17980-5ce1-11eb-90c4-41922ae34bf6.png)
+![Banner](https://raw.githubusercontent.com/ohmybahgosh/Seedbox-Tweaks-and-Optimizations/main/Media/Banner_Solid.png)
+
+# UPDATE:  
+JAN 23, 2021
 
 ## This is a work in progress...I have a lot of customizations that I wanna clean up and share on here. First things first, I do wanna clarify...I'm no pro at this stuff...I have a ton of experience in data scraping, database engineering, blah blah...but the SeedBox setup was a first time for me. 
 
