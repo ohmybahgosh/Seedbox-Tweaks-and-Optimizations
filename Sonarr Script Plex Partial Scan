@@ -1,0 +1,32 @@
+#!/bin/bash
+##
+###OHMYBAHGOSH###
+##
+####SCRIPT ALERT PLEX TO DO ONLY A PARTIAL SCAN INSTEAD OF A FULL ON LIBRARY SCAN####
+####WHEN A NEW EPISODE IS IMPORTED THE SCRIPT RUNS A PARTIAL SCAN ON JUST THE EPISODES PARENT SEASON FOLDER####
+##
+##
+
+## Set script variables: ##
+
+###Update PLEX_URL If Needed - Should Work as is for most setups###
+PLEX_URL=http://127.0.0.1:32400
+
+###Put in your Token For Plex###
+####GUIDE ON FINDING YOUR TOKEN:####
+## https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/ ##
+PLEX_TOKEN=
+
+###Put in your library section ID###
+####GUIDE ON FINDING LIBRARY SECTION ID:####
+## https://support.plex.tv/articles/201242707-plex-media-scanner-via-command-line/#toc-1 ##
+SHOWS_SECTION_ID=
+
+###Quick Regex to trim off everything after last forward slash###
+DIR2SCAN=$(echo ${sonarr_episodefile_path} | sed 's|\(.*\)/.*|\1\/|')
+
+###Nice little Perl one liner to URLENCODE the folder path for Curl###
+PATHENCODED=$(echo "$DIR2SCAN" | perl -MURI::Escape -ne 'chomp;print uri_escape($_),"\n"')
+
+###Use Curl to send the partial scan request for the episodes parent season folder###
+curl -k -X PUT -H "X-Plex-Token: $PLEX_TOKEN" $PLEX_URL/library/sections/$SHOWS_SECTION_ID/refresh?path=${PATHENCODED}
